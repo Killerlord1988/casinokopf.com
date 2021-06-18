@@ -1,0 +1,53 @@
+.online-roulette {
+  padding-top: 60px;
+}
+
+.online-roulette__wrapper {
+  background-color: $color-grey;
+  padding: 40px;
+  border-radius: 14px;
+}
+
+.online-roulette__wrapper h2 {
+  margin: 0;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.online-roulette__wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 20px;
+  counter-reset: section;
+}
+
+.online-roulette__wrapper h3 {
+  position: relative;
+  margin: 0;
+  padding-left: 25px;
+}
+
+.online-roulette__wrapper li {
+  margin-top: 20px;
+}
+
+.online-roulette__wrapper li:nth-child(-n+3) h3 {
+  color: $color-primary;
+  text-decoration: underline;
+}
+
+.online-roulette__wrapper h3::before {
+  position: absolute;
+  left: 0;
+  counter-increment: section;
+  content: counter(section) ".";
+  color: $color-black;
+}
+
+.online-roulette__wrapper p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 140%;
+  margin-top: 5px;
+}
