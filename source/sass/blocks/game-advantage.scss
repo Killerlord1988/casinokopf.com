@@ -1,0 +1,79 @@
+.game-advantage {
+  padding-top: 60px;
+}
+
+.game-advantage__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.game-advantage__wrapper p {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.game-advantage__items {
+  margin-top: 40px;
+}
+
+.game-advantage__list {
+  max-width: 1014px;
+  margin-top: 40px;
+}
+
+.game-advantage__list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.game-advantage__list li {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 30px;
+}
+
+.game-advantage__list h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.game-advantage__list p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.game-advantage__list--plus h3 {
+  color: $color-green;
+}
+
+.game-advantage__list--minus h3 {
+  color: $color-red;
+}
+
+.game-advantage__list--plus li::before,
+.game-advantage__list--minus li::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+.game-advantage__list--plus li::before {
+  content: url("../img/plus.svg");
+}
+
+
+
+.game-advantage__list--minus li::before {
+  content: url("../img/minus.svg");
+}
