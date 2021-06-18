@@ -1,0 +1,83 @@
+.advantage {
+  margin-top: 80px;
+}
+
+.advantage__wrapper h1 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 140%;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.advantage__wrapper p {
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.advantage__subject {
+  margin-top: 40px;
+}
+
+.advantage__subject h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.advantage__subject-list {
+  display: flex;
+  counter-reset: section;
+}
+
+.advantage__subject-list ul {
+  margin: 0;
+  padding: 32px 36px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-grey;
+}
+
+.advantage__subject-list li {
+  position: relative;
+  padding: 12px 16px;
+  padding-left: 58px;
+  width:fit-content;
+}
+
+.advantage__subject-list li:hover {
+  cursor: pointer;
+  background-color: $color-black;
+  color: $color-white;
+  border-radius: 2px;
+}
+
+
+.advantage__subject-list li::before {
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 32px;
+  height: 32px;
+
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-white;
+  background-color: $color-black;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.advantage__subject-list a {
+  font-size: 16px;
+  line-height: 140%;
+}
+
