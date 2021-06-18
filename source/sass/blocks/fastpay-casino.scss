@@ -1,0 +1,50 @@
+.fastpay-casino {
+  padding-top: 60px;
+}
+
+.fastpay-casino h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.fastpay-casino p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.fastpay-casino__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fastpay-casino__list li {
+  position: relative;
+  padding: 10px;
+  padding-left: 16px;
+}
+
+.fastpay-casino__list li::before {
+  position: absolute;
+  content: "";
+
+  width: 6px;
+  height: 6px;
+
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-radius: 50%;
+  background-color: $color-primary;
+}
+
+.fastpay-casino__list p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 140%;
+}
