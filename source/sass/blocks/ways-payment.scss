@@ -1,0 +1,58 @@
+.ways-payment {
+  padding-top: 60px;
+}
+
+.ways-payment__wrapper h2 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.ways-payment__wrapper p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 140%;
+  margin-top: 20px;
+}
+
+.ways-payment__options {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ways-payment__item {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+  background: $color-white;
+
+  border: 1px solid $color-grey;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 290px;
+  min-height: 250px;
+  padding-bottom: 30px;
+}
+
+.ways-payment__item--one img {
+  padding-top: 15px;
+}
+
+.ways-payment__item--two img {
+  padding-top: 107px;
+}
+
+.ways-payment__item--three img {
+  padding-top: 45px;
+}
+
+.ways-payment__item--four img {
+  padding-top: 65px;
+}
+
+.ways-payment__item p {
+  margin-top: auto;
+}

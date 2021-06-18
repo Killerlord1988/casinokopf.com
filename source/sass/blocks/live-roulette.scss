@@ -1,0 +1,50 @@
+.live-roulette {
+  padding-top: 60px;
+}
+
+.live-roulette__wrapper {
+  background-color: $color-grey;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.live-roulette__border-top {
+  border-top: 4px solid $color-primary;
+}
+
+.live-roulette__content {
+  padding: 30px 50px;
+}
+
+.live-roulette__content h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.live-roulette__text {
+  margin-top: 20px;
+}
+
+.live-roulette__text p {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.live-roulette__img {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.live-roulette__img p {
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.live-roulette__text a {
+  color: $color-primary;
+  text-decoration: underline;
+}
