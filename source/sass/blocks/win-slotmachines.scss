@@ -1,0 +1,62 @@
+.win-slotmachines {
+  padding-top: 60px;
+}
+
+.win-slotmachines__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.win-slotmachines__wrapper p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.win-slotmachines__comment {
+  padding: 20px;
+  background-color: $color-primary;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.win-slotmachines__comment h3 {
+  position: relative;
+  margin: 0;
+  padding-left: 35px;
+  color: $color-white;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.win-slotmachines__comment h3::before {
+  position: absolute;
+  content: url("../img/chat.svg");
+
+  width: 24px;
+  height: 24px;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.win-slotmachines__comment p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 140%;
+  color: $color-white;
+}
+
+.win-slotmachines__comment p:last-child {
+  margin: 0;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-white;
+}
