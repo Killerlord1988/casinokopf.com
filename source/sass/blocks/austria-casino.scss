@@ -1,0 +1,63 @@
+.austria-casino {
+  padding-top: 60px;
+}
+
+.austria-casino__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.austria-casino__wrapper p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.austria-casino__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: section;
+  margin-top: 20px;
+}
+
+.austria-casino__list li {
+  position: relative;
+  margin-top: 10px;
+  padding-left: 35px;
+}
+
+.austria-casino__list li::before {
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  background-color: $color-primary;
+  color: $color-white;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+
+.austria-casino__list p {
+  margin: 0;
+  padding: 5px;
+  padding-left: 0;
+}
