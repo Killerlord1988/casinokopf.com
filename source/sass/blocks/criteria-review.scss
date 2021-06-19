@@ -1,0 +1,87 @@
+.criteria-review {
+  padding-top: 60px;
+}
+
+.criteria-review h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.criteria-review p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.criteria-review__wrapper {
+  background-color: $color-grey;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.criteria-review__border-top {
+  border-top: 4px solid $color-primary;
+}
+
+.criteria-review__list {
+  padding: 30px 60px;
+  display: flex;
+  justify-content: space-between;
+  counter-reset: section;
+}
+
+.criteria-review__list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 514px;
+}
+
+.criteria-review__list li {
+  margin-top: 30px;
+}
+
+.criteria-review__list li:first-child {
+  margin-top: 0;
+}
+
+.criteria-review__list h3 {
+  position: relative;
+  margin: 0;
+  padding-left: 40px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+}
+
+.criteria-review__list h3::before {
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+
+  width: 24px;
+  height: 24px;
+
+  background-color: $color-primary;
+  border-radius: 50%;
+  color: $color-white;
+  padding: 2px;
+}
+
+.criteria-review__list p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+
