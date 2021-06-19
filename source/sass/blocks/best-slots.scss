@@ -1,0 +1,31 @@
+.best-slots {
+  padding-top: 60px;
+}
+
+.best-slots__wrapper {
+  background-color: $color-grey;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.best-slots__border-top {
+  border-top: 4px solid $color-primary;
+}
+
+.best-slots__content {
+  padding: 30px 20px;
+}
+
+.best-slots__content h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.best-slots__content p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
