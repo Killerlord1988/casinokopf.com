@@ -1,0 +1,152 @@
+.top-casino {
+  padding-top: 60px;
+}
+
+.top-casino__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.top-casino__wrapper p {
+  margin: 0;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.top-casino__list {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+  counter-reset: section;
+}
+
+.top-casino__list li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px 30px;
+  padding-left: 100px;
+
+  background: $color-grey;
+  border-radius: 14px;
+}
+
+.top-casino__list li::before {
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+
+  width: 40px;
+  height: 40px;
+
+  border-radius: 50%;
+  background-color: #B8BFC2;
+  color: $color-white;
+  padding: 5px;
+}
+
+.top-casino__list li:first-child::before {
+  background-color: $color-primary;
+}
+
+
+
+.top-casino__img {
+  margin-right: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.top-casino__img img {
+  border-radius: 50%;
+}
+
+.top-casino__rating {
+  width: 220px;
+}
+
+.top-casino__rating h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.top-casino__stars {
+  display: flex;
+  align-items: center;
+}
+
+.top-casino__review-stars {
+  margin-right: 8px;
+}
+
+.top-casino__rating p {
+  margin: 0;
+  margin-top: 4px;
+  font-size: 14px;
+  line-height: 140%;
+  color: $color-primary;
+}
+
+.top-casino__stars p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-black;
+}
+
+.top-casino__about {
+  width: 250px;
+}
+
+.top-casino__about h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.top-casino__about p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.top-casino__bonus {
+  width: 210px;
+}
+
+.top-casino__bonus p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  color: $color-primary;
+}
+
+.top-casino__list a {
+  width: 240px;
+  padding: 14px 71px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-white;
+  background-color: $color-primary;
+  border-radius: 6px;
+}
