@@ -1,0 +1,62 @@
+.how-choose {
+  padding-top: 60px;
+}
+
+.how-choose__wrapper {
+  padding: 30px;
+  background-color: $color-grey;
+  border-radius: 14px;
+}
+
+.how-choose__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.how-choose__wrapper ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding-left: 45px;
+  counter-reset: section;
+}
+
+.how-choose__wrapper li {
+  position: relative;
+  margin-top: 10px;
+}
+
+.how-choose__wrapper h3 {
+  position: relative;
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 140%;
+  color: $color-primary;
+}
+
+.how-choose__wrapper h3::before {
+  position: absolute;
+  counter-increment: section;
+  content: counter(section);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 140%;
+  left: -45px;
+  top: 50%;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  color: $color-white;
+  background-color: $color-primary;
+  text-align: center;
+  padding: 2px;
+}
+
+.how-choose__wrapper p {
+  margin: 0;
+  margin-top: 10px;
+}
