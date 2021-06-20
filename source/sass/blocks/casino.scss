@@ -1,0 +1,91 @@
+.casino {
+  padding-top: 60px;
+}
+
+.casino__wrapper h2 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 140%;
+}
+
+.casino__wrapper p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.casino__list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  margin-top: 40px;
+  padding: 0;
+  list-style: none;
+}
+
+.casino__list li {
+  width: 294px;
+  padding: 20px;
+  padding-top: 45px;
+  background-color: $color-grey;
+  border-radius: 14px;
+}
+
+.casino__list li:nth-child(4) {
+  padding-top: 20px;
+}
+
+.casino__name {
+  display: flex;
+  align-items: center;
+}
+
+.casino__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 64px;
+  height: 64px;
+  background-color: $color-primary;
+  border-radius: 50%;
+}
+
+.casino__name h3 {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 140%;
+  width: 170px;
+}
+
+.casino__list p {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 140%;
+  text-align: center;
+}
+
+.casino__list a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: $color-primary;
+  border: 2px solid $color-primary;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.casino__list a:hover {
+  color: $color-white;
+  background-color: $color-primary;
+}
