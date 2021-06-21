@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preload" href="css/style.min.css" as="style" crossorigin="anonymous">
+  <link rel="preload" href="js/script.js" as="script">
+  <link rel="preload" href="fonts/NotoSans-Bold.woff2" as="font">
+  <link rel="preload" href="fonts/NotoSans-Regular.woff2" as="font">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+
+  <title>Affart | casinokopf.com</title>
+</head>
+<body>
+
+  <header class="header">
+    <section class="header__wrapper container">
+      <div class="header__logo-link">
+        <img src="img/logo.svg" width="252" height="37" alt="logo" />
+      </div>
+      <div class="header__search">
+        <div class="header__search-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20">
+            <use xlink:href="img/sprite_auto.svg#icon-search"></use>
+          </svg>
+        </div>
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <input type="search" id="site-search" name="search" aria-label="Search through site content">
+        </form>
+      </div>
+      <div class="header__about">
+        <a href="#">About Us</a>
+        <a href="#">Contacts</a>
+      </div>
+      <div class="header__language">
+        <a href="#"><span>Österreich</span>
+          <div class="header__language-icon">
+            <svg width="32" height="32" viewBox="0 0 32 32">
+              <use xlink:href="img/sprite_auto.svg#icon-switzerland"></use>
+            </svg>
+          </div>
+        </a>
+      </div>
+
+    </section>
+    <nav class="header__menu container">
+      <ul class="header__menu-list">
+        <li><a href="#">Startseite</a></li>
+        <li><a href="#">Roulette</a>
+          <ul class="header__menu-sublist">
+            <li><a href="#">Strategie</a></li>
+            <li><a href="#">Tipps</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="error-nf">
+      <div class="container">
+        <div class="error-nf__wrapper">
+          <div class="error-nf__img">
+            <img src="img/404.svg" width="206" height="202" alt="404 error">
+          </div>
+          <h1>Seite nicht gefunden</h1>
+          <p>Wir können nicht finden, wonach Sie suchen. Schauen Sie sich unten einige unserer beliebtesten Kategorien an oder besuchen Sie unsere <a href="index.html">Homepage</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
