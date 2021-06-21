@@ -68,3 +68,9 @@
   color: $color-white;
   background-color: $color-primary;
 }
+
+@media (max-width: $mobile-width) {
+  .best-reviews__list li {
+    margin-top: 20px;
+  }
+}

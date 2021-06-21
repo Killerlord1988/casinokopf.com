@@ -53,6 +53,10 @@
 }
 
 @media (max-width: $mobile-width) {
+  .online-roulette__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .online-roulette__wrapper h2 {
     font-size: 24px;
   }
