@@ -5,6 +5,7 @@
 
 .slot-review__top {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .slot-review__top h1 {
@@ -119,4 +120,27 @@
 
 .slot-review__promo-slot-link a:hover {
   background-color: $color-primary;
+}
+
+@media (max-width: $mobile-width) {
+  .slot-review__top h1 {
+    font-size: 32px;
+  }
+
+  .slot-review__slot {
+    flex-wrap: wrap;
+  }
+
+  .slot-review__about-slot td {
+    font-size: 16px;
+  }
+
+  .slot-review__promo-slot-img {
+    margin-top: 20px;
+  }
+
+  .slot-review__about-slot-img {
+    width: auto;
+    max-width: 319px;
+  }
 }
