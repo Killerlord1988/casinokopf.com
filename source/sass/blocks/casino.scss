@@ -35,7 +35,7 @@
 }
 
 .casino__list li:nth-child(4) {
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .casino__name {
@@ -94,9 +94,5 @@
 @media (max-width: $mobile-width) {
   .casino__wrapper h2 {
     font-size: 24px;
-  }
-
-  .casino__wrapper p {
-    font-size: 16px;
   }
 }
