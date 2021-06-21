@@ -1,0 +1,122 @@
+.slot-review {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.slot-review__top {
+  display: flex;
+}
+
+.slot-review__top h1 {
+  margin: 0;
+  margin-right: 26px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 140%;
+}
+
+.slot-review__stars {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 10px;
+}
+
+.slot-review__review-stars {
+  margin-right: 8px;
+}
+
+.slot-review__stars p {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  color: $color-black;
+}
+
+.slot-review__slot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.slot-review__about-slot {
+  margin-right: 10px;
+}
+
+.slot-review__about-slot-img {
+  width: 319px;
+  height: 213px;
+}
+
+.slot-review__about-slot-img img {
+  border-radius: 10px;
+}
+
+.slot-review__about-slot table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.slot-review__about-slot td {
+  font-size: 18px;
+  line-height: 140%;
+  padding-top: 18px;
+}
+
+.slot-review__about-slot td:first-child {
+  font-weight: bold;
+}
+
+.slot-review__about-slot tr:first-child td {
+  padding-top: 0;
+}
+
+.slot-review__promo-slot-img {
+  max-width: 950px;
+  max-height: 677px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.slot-review__promo-slot-img img {
+  position: relative;
+  border-radius: 10px;
+}
+
+.slot-review__dark {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba($color: #000000, $alpha: 0.3);
+}
+
+.slot-review__promo-slot-link {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slot-review__promo-slot-link a {
+  max-width: 240px;
+  padding: 14px 71px;
+  background-color: $color-black;
+  color: $color-white;
+  border-radius: 6px;
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.slot-review__promo-slot-link a:hover {
+  background-color: $color-primary;
+}
