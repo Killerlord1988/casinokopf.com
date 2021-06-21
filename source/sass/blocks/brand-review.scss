@@ -108,6 +108,7 @@
 
 .brand-review__link {
   display: flex;
+  justify-content: center;
   width: 240px;
   margin-top: 20px;
   padding: 17px 71px;
@@ -124,7 +125,12 @@
   background-color: $color-red;
 }
 
+.brand-review__table-wrap {
+  overflow-x: auto;
+}
+
 .brand-review__table-about {
+  min-width: 450px;
   margin-top: 20px;
 }
 
@@ -174,7 +180,6 @@
 .brand-review__wrapper p {
   max-width: 1100px;
   margin: 0;
-  margin-top: 20px;
   font-size: 18px;
   line-height: 140%;
 }
@@ -192,4 +197,35 @@
 
 .brand-review__img-list a:nth-child(5n) {
   margin-right: 0;
+}
+
+@media (max-width: $mobile-width) {
+  .brand-review__name h1 {
+    font-size: 32px;
+  }
+
+  .brand-review__bonus {
+    margin-top: 10px;
+  }
+
+  .brand-review__about {
+    margin-top: 10px;
+  }
+
+  .brand-review__link {
+    width: 100%;
+  }
+
+.brand-review__check-list li {
+  margin-top: 20px;
+}
+
+.brand-review__check-list p {
+font-size: 16px;
+}
+
+.brand-review__wrapper p {
+  margin-top: 20px;
+  font-size: 16px;
+}
 }
