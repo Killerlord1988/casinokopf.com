@@ -22,7 +22,7 @@
 .brand-review__item {
   display: flex;
   justify-content: space-between;
-
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 70px;
 }

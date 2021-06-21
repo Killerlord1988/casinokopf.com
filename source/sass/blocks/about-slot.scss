@@ -4,6 +4,7 @@
 
 .about-slot__wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -50,4 +51,11 @@
   padding: 20px;
   padding-top: 10px;
   padding-right: 0;
+}
+
+@media (max-width: 1339px) {
+  .about-slot__item {
+    max-width: none;
+    width: 100%;
+  }
 }

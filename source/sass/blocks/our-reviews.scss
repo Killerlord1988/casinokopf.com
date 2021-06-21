@@ -23,6 +23,7 @@
 
 .our-reviews__list {
   display: flex;
+  flex-wrap: wrap;
   padding: 20px;
 }
 
@@ -65,4 +66,3 @@
   color:$color-primary;
   text-decoration: underline;
 }
-

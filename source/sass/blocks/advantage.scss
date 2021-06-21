@@ -28,10 +28,12 @@
 
 .advantage__subject-list {
   display: flex;
+  flex-wrap: wrap;
   counter-reset: section;
 }
 
 .advantage__subject-list ul {
+  max-width: 630px;
   margin: 0;
   padding: 32px 36px;
   list-style: none;
@@ -81,3 +83,9 @@
   line-height: 140%;
 }
 
+@media (max-width: 1319px) {
+  .advantage__subject-list ul {
+    max-width: none;
+    width: 100%;
+  }
+}

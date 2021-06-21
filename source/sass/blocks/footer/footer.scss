@@ -7,6 +7,7 @@
 
 .footer__top {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -14,10 +15,12 @@
 .footer__icon {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer__icon img {
   margin-right: 50px;
+  margin-top: 10px;
 }
 
 .footer__icon img:last-child {
@@ -26,10 +29,12 @@
 
 .footer__links {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 45px;
 }
 
 .footer__column {
+  margin-top: 20px;
   margin-right: 100px;
 }
 
@@ -94,9 +99,11 @@
 
 .footer__bottom-img {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .footer__bottom-img img {
+  margin-top: 10px;
   margin-right: 24px;
 }
