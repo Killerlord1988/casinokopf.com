@@ -1,0 +1,30 @@
+.breadcrumbs {
+  padding-top: 20px;
+}
+
+.breadcrumbs__wrapper ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs__wrapper li {
+  margin-right: 32px;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.breadcrumbs__wrapper a {
+  position: relative;
+  color: $color-primary;
+}
+
+.breadcrumbs__wrapper a::after {
+  position: absolute;
+  content: url("../img/right-arrow.svg");
+
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
