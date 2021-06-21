@@ -48,3 +48,13 @@
   font-size: 18px;
   line-height: 140%;
 }
+
+@media (max-width: $mobile-width) {
+  .fastpay-casino h2 {
+    font-size: 18px;
+  }
+
+  .fastpay-casino p {
+    font-size: 16px;
+  }
+}

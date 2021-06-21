@@ -60,3 +60,14 @@
   margin: 0;
   margin-top: 10px;
 }
+
+@media (max-width: $mobile-width) {
+  .how-choose__wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .how-choose__wrapper h2 {
+    font-size: 24px;
+  }
+}

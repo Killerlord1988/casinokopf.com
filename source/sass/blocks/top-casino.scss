@@ -64,8 +64,6 @@
   background-color: $color-primary;
 }
 
-
-
 .top-casino__img {
   margin-right: 20px;
   width: 100px;
@@ -150,8 +148,50 @@
   color: $color-white;
   background-color: $color-primary;
   border-radius: 6px;
+  text-align: center;
 }
 
 .top-casino__list a:hover {
   background-color: $color-red;
+}
+
+@media (max-width: $mobile-width) {
+  .top-casino__wrapper h2 {
+    font-size: 24px;
+  }
+
+  .top-casino__wrapper p {
+    font-size: 16px;
+  }
+
+  .top-casino__list li {
+    padding-top: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .top-casino__list li::before {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25px;
+  }
+
+  .top-casino__rating {
+    margin-top: 20px;
+  }
+
+  .top-casino__about {
+    margin-top: 20px;
+
+  }
+
+  .top-casino__list a {
+    width: 100%;
+    margin-top: 20px;
+
+  }
+
+  .top-casino__bonus {
+    margin-top: 20px;
+  }
 }

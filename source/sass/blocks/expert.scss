@@ -76,3 +76,21 @@
   line-height: 140%;
   color: $color-white;
 }
+
+@media (max-width: $mobile-width) {
+  .expert__name h3 {
+    font-size: 18px;
+  }
+
+  .expert__wrapper h2 {
+    font-size: 24px;
+  }
+
+  .expert__about {
+    flex-wrap: wrap;
+  }
+
+  expert__name {
+    flex-wrap: wrap;
+  }
+}

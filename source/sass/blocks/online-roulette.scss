@@ -51,3 +51,13 @@
   line-height: 140%;
   margin-top: 5px;
 }
+
+@media (max-width: $mobile-width) {
+  .online-roulette__wrapper h2 {
+    font-size: 24px;
+  }
+
+  .online-roulette__wrapper p {
+    font-size: 16px;
+  }
+}

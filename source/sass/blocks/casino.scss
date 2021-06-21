@@ -90,3 +90,13 @@
   color: $color-white;
   background-color: $color-primary;
 }
+
+@media (max-width: $mobile-width) {
+  .casino__wrapper h2 {
+    font-size: 24px;
+  }
+
+  .casino__wrapper p {
+    font-size: 16px;
+  }
+}

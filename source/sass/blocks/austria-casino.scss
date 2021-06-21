@@ -61,3 +61,13 @@
   padding: 5px;
   padding-left: 0;
 }
+
+@media (max-width: $mobile-width) {
+  .austria-casino__wrapper h2 {
+    font-size: 18px;
+  }
+
+  .austria-casino__wrapper p {
+    font-size: 16px;
+  }
+}

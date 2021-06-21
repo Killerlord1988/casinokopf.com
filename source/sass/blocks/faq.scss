@@ -56,3 +56,17 @@
   font-size: 18px;
   line-height: 140%;
 }
+
+@media (max-width: $mobile-width) {
+  .faq__wrapper h2 {
+    font-size: 24px;
+  }
+
+  .faq__list h3 {
+    font-size: 18px;
+  }
+
+  .faq__list p {
+    font-size: 16px;
+  }
+}

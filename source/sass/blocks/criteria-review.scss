@@ -16,6 +16,7 @@
 }
 
 .criteria-review__wrapper {
+  margin-top: 20px;
   background-color: $color-grey;
   border-radius: 14px;
   overflow: hidden;
@@ -85,4 +86,22 @@
   line-height: 140%;
 }
 
+@media (max-width: $mobile-width) {
+  .criteria-review h2 {
+    font-size: 24px;
+  }
 
+  .criteria-review p {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  .criteria-review__list {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+.criteria-review__list h3 {
+  font-size: 18px;
+}
+}
