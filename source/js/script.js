@@ -1,15 +1,19 @@
-// 'use strict';
-// var pageHeader = document.querySelector('.page-header');
-// var headerToggle = document.querySelector('.page-header__toggle');
+'use strict'
 
-// pageHeader.classList.remove('page-header--nojs');
+const btnUp = document.querySelector('.btn-up')
+//
+function magic() {
+  if (window.pageYOffset > 20) {
+    btnUp.style.opacity = '1'
+  } else { btnUp.style.opacity = '0' }
+}
+//
+btnUp.onclick = function () {
+	window.scrollTo ({
+    top: 0,
+    behavior: 'smooth',
+  })
+}
 
-// headerToggle.addEventListener('click', function () {
-//   if (pageHeader.classList.contains('page-header--closed')) {
-//     pageHeader.classList.remove('page-header--closed');
-//     pageHeader.classList.add('page-header--opened');
-//   } else {
-//     pageHeader.classList.add('page-header--closed');
-//     pageHeader.classList.remove('page-header--opened');
-//   }
-// });
+// When scrolling, we run the function
+window.onscroll = magic

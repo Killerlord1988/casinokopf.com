@@ -1,0 +1,23 @@
+.btn-up {
+  position: relative;
+  text-align: center;
+  opacity: 0;
+  background-color: $color-black;
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.btn-up::before {
+  position: absolute;
+  content: url("../img/up-arrow.svg");
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
