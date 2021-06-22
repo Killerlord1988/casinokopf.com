@@ -63,12 +63,40 @@
 }
 
 .our-reviews__list a:hover {
-  color:$color-primary;
+  color: $color-primary;
   text-decoration: underline;
 }
 
 @media (max-width: $mobile-width) {
   .our-reviews h2 {
     font-size: 24px;
+  }
+
+  .our-reviews__list ul {
+    margin-right: 0;
+  }
+
+
+}
+
+@media (max-width: 387px) {
+  .our-reviews__list li {
+    margin-right: 0;
+  }
+
+  .our-reviews__list li::before{
+    content: none;
+  }
+
+  .our-reviews__list ul {
+    margin-right: 0;
+    min-width: auto;
+    width: 50%;
+    margin-right: auto;
+  }
+
+  .our-reviews__list a {
+    padding-left: 5px;
+    border-left: 1px solid $color-primary;
   }
 }
