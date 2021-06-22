@@ -188,10 +188,17 @@
     margin-top: 20px;
   }
 
+  .top-casino__rating p {
+    text-align: center;
+  }
+
+  .top-casino__stars {
+    justify-content: center;
+  }
+
   .top-casino__about {
     margin-top: 20px;
-    max-width: 250px;
-    width: auto;
+    width: 240px;
   }
 
   .top-casino__list a {
@@ -201,7 +208,6 @@
 
   .top-casino__bonus {
     margin-top: 20px;
-    max-width: 210px;
-    width: auto;
+    width: 240px;
   }
 }

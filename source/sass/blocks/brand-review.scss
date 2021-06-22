@@ -130,7 +130,7 @@
 }
 
 .brand-review__table-about {
-  min-width: 450px;
+  min-width: 766px;
   margin-top: 20px;
 }
 
@@ -139,7 +139,7 @@
 }
 
 .brand-review__table-about td:first-child {
-  min-width: 240px;
+  min-width: 255px;
   padding-right: 50px;
 }
 
@@ -207,6 +207,26 @@
   margin-right: 0;
 }
 
+@media (max-width: $tablet-width) {
+  .brand-review__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-review__img {
+    margin-right: 0;
+  }
+
+  .brand-review__name-brand {
+    flex-direction: column;
+  }
+
+  .brand-review__rating p {
+    text-align: center;
+  }
+}
+
 @media (max-width: $mobile-width) {
   .brand-review__name h1 {
     font-size: 32px;
@@ -234,5 +254,17 @@ font-size: 16px;
 
 .brand-review__wrapper p {
   font-size: 16px;
+}
+}
+
+@media (max-width: 507px) {
+  .brand-review__img-list {
+    justify-content: center;
+  }
+
+.brand-review__img-list a {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 }
