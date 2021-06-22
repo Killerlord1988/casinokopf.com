@@ -17,6 +17,7 @@
 
 .how-choose__wrapper ul {
   margin: 0;
+  margin-top: 30px;
   padding: 0;
   list-style: none;
   padding-left: 45px;
@@ -25,7 +26,7 @@
 
 .how-choose__wrapper li {
   position: relative;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .how-choose__wrapper h3 {
@@ -59,6 +60,8 @@
 .how-choose__wrapper p {
   margin: 0;
   margin-top: 10px;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 @media (max-width: $mobile-width) {
@@ -70,4 +73,8 @@
   .how-choose__wrapper h2 {
     font-size: 24px;
   }
+
+.how-choose__wrapper p {
+  font-size: 16px;
+}
 }

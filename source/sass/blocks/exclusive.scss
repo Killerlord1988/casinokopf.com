@@ -40,6 +40,10 @@
   text-align: center;
 }
 
+.exclusive__table tr:nth-child(odd) {
+  background-color: $color-grey;
+}
+
 .exclusive__table td {
   padding: 15px 20px;
   text-align: left;
