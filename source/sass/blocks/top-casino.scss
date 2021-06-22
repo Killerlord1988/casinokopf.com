@@ -166,6 +166,9 @@
   }
 
   .top-casino__list li {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 100px;
     padding-left: 10px;
     padding-right: 10px;
@@ -177,22 +180,28 @@
     top: 25px;
   }
 
+  .top-casino__img {
+    margin-right: 0;
+  }
+
   .top-casino__rating {
     margin-top: 20px;
   }
 
   .top-casino__about {
     margin-top: 20px;
-
+    max-width: 250px;
+    width: auto;
   }
 
   .top-casino__list a {
     width: 100%;
     margin-top: 20px;
-
   }
 
   .top-casino__bonus {
     margin-top: 20px;
+    max-width: 210px;
+    width: auto;
   }
 }
