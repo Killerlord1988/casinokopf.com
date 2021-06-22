@@ -45,7 +45,7 @@
   border-radius: 50%;
 }
 
-.brand-review__rating h3 {
+.brand-review__rating p:first-child {
   margin: 0;
   font-weight: bold;
   font-size: 20px;
@@ -68,7 +68,7 @@
   line-height: 140%;
 }
 
-.brand-review__bonus p {
+.brand-review__bonus {
   width: 323px;
 }
 
@@ -84,7 +84,7 @@
   width: 320px;
 }
 
-.brand-review__about h3 {
+.brand-review__about p:first-child {
   margin: 0;
   font-weight: bold;
   font-size: 16px;
@@ -169,8 +169,11 @@
   padding-left: 25px;
 }
 
-.brand-review__check-list li p {
+.brand-review__check-list p {
+  margin: 0;
   margin-top: 10px;
+  font-size: 18px;
+  line-height: 140%;
 }
 
 .brand-review__check-list li::before {
@@ -181,9 +184,10 @@
   transform: translateY(-50%);
 }
 
-.brand-review__wrapper p {
+.brand-review__description {
   max-width: 1100px;
   margin: 0;
+  margin-top: 20px;
   font-size: 18px;
   line-height: 140%;
 }
