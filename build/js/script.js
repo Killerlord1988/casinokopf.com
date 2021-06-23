@@ -5,7 +5,7 @@ let btnUp
 if (document.querySelector('.btn-up')) {
   btnUp = document.querySelector('.btn-up')
   //
-function magic() {
+function scollUp() {
   if (window.pageYOffset > 20) {
     btnUp.style.opacity = '1'
   } else { btnUp.style.opacity = '0' }
@@ -18,7 +18,7 @@ btnUp.onclick = function () {
   })
 }
 // When scrolling, we run the function
-window.onscroll = magic
+window.onscroll = scollUp
 }
 
 // burger menu
