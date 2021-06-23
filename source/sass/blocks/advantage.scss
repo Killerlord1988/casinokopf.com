@@ -56,6 +56,9 @@
   border-radius: 2px;
 }
 
+.advantage__subject-list li:hover a{
+  color:$color-white
+}
 
 .advantage__subject-list li::before {
   position: absolute;
@@ -81,6 +84,7 @@
 .advantage__subject-list a {
   font-size: 16px;
   line-height: 140%;
+  color: $color-black;
 }
 
 @media (max-width: 1319px) {
