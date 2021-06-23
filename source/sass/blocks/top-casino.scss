@@ -140,7 +140,7 @@
   color: $color-primary;
 }
 
-.top-casino__list a {
+.top-casino__list button {
   width: 240px;
   padding: 14px 71px;
   font-weight: bold;
@@ -150,9 +150,11 @@
   background-color: $color-primary;
   border-radius: 6px;
   text-align: center;
+  border: none;
+  cursor: pointer;
 }
 
-.top-casino__list a:hover {
+.top-casino__list button:hover {
   background-color: $color-red;
 }
 
@@ -201,7 +203,7 @@
     width: 240px;
   }
 
-  .top-casino__list a {
+  .top-casino__list button {
     width: 100%;
     margin-top: 20px;
   }
